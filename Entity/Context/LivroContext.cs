@@ -20,6 +20,7 @@ namespace Entity.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            //Caminho do banco de dados
             optionsBuilder.UseSqlite("Data Source=C:\\Users\\andre\\Documents\\Projetos\\C#\\Entity\\Entity\\Banco\\Livros.db");
             base.OnConfiguring(optionsBuilder);
         }
