@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Entity.Migrations
 {
     [DbContext(typeof(LivroContext))]
-    [Migration("20210924023108_1")]
+    [Migration("20210930011748_1")]
     partial class _1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
